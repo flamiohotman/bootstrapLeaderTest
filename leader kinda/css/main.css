@@ -1,0 +1,161 @@
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 75px;
+    height: 75px;
+    padding-top: 0;
+}
+
+.navbar-brand .logo
+{
+	padding: 5px;
+}
+
+body
+{
+	background-color: #111;
+	color: #ddd;
+}
+
+body > .container
+{
+	background-color: #222;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #ccc;
+	text-shadow: 0 0 5px black;
+	pointer-events: none;
+}
+
+.print img
+{
+	opacity: 0.8;
+}
+
+.separator
+{
+	border-bottom: 5px solid #111;
+	border-radius: 5%;
+}
+
+.spacer
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.row-eq-height 
+{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.darker
+{
+	background-color: #050505;
+	box-shadow: 2px 1px 4px black;
+}
+
+.lighter
+{
+	box-shadow: 2px 1px 2px black;
+	background-color: #444;
+}
+
+.lighter-half
+{
+	box-shadow: 2px 1px 1px black;
+	background-color: #353535;
+}
+
+.lighter-half:nth-child(odd)
+{
+	border-left: 1px solid #111;
+	border-right: 1px solid #111;
+}
+
+.col-xs-2.lighter:nth-child(odd)
+{
+	border-left: 1px solid #111;
+	border-right: 1px solid #111;
+}
+
+.img-shadow
+{
+	box-shadow: 2px 1px 3px black;
+	transition: all 1s ease-in-out;
+}
+
+h4.lighter-half
+{
+	padding: 2px;
+}
+
+.border-bottom
+{
+	border-bottom: 1px solid #111;
+}
+
+.light-border-bottom
+{
+	border-bottom: 1px solid #444;
+	padding-top: 10px;
+}
+
+.clients>.col-xs-2:hover
+{
+	background-color: #aaa;
+}
+
+.clients .lighter
+{
+	background-color: #666;
+}
+
+h5
+{
+	font-style: italic;
+}
+
+h5.text-left
+{
+	text-indent: 15px;
+	line-height: 20px;
+}
+
+.row.row-eq-height.text-left:hover
+{
+	background-color: #333;
+}
+
+.rewards .col-xs-2:hover
+{
+	border: 1px solid #444;
+	background-color: #353535;	
+}
+
+.form-control-group input
+{
+	color: black;
+	font-weight: bold;
+}
+
+.controls img
+{
+	display: inline-block;
+}
+
+.call:hover
+{
+	border: 1px solid #555;
+	background-color: #333;
+}
+
+.order:hover
+{
+	border: 1px solid #555;
+	background-color: #333;
+}

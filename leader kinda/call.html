@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="enru">
+<head>
+	<meta charset="UTF-8">
+	<title>Лидер-М</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href = "css/main.css" rel = "stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src = "js/call.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="main.html">
+      	<img class = "logo" alt = "logo" src = "img/logo.png"/>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="main.html">О компании</a></li>
+        <li><a href="clients.html">Клиенты</a></li>        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      	<li class = "active"><a href="call.html">Оставить заявку <span class="sr-only">(current)</span></a></li>
+        <li><a href="action.html">Акции</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+      </ul>
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class = "container text-center">
+	<div class = "darker">
+		<h2>Заявка</h2>		
+	</div>
+	<div class = "spacer"></div>
+	<div class="separator"></div>
+	<div class="spacer"></div>
+
+	<div class = "table text-left">
+		<div class = "row call">
+			<div class = "darker text-center"><h4>Закажите звонок</h4></div>
+			<div class = "spacer"></div>
+
+			<div class = "col-xs-5"></div>
+			<div class = "col-xs-6">
+				<form id="call-form" class="form-horizontal">
+					<div class="form-control-group">
+						<label class="control-label" for="name">Имя</label>
+						<div class="controls">
+							<input type="text" class="input-xlarge" name="name" id="name">
+							<img src = "" class = "img-responsive" id = "call-name-img"/>
+						</div>
+					</div>
+
+					<div class="form-control-group">
+						<label class="control-label" for="telephone">Телефон</label>
+						<div class="controls">							
+							<input type="text" class="input-xlarge" name="telephone" id="telephone">		
+							<img src = "" class = "img-responsive" id = "call-telephone-img"/>					
+						</div>
+					</div>
+					<div class = "spacer"></div>
+					<div class="form-actions">
+						<button type="submit" class="btn btn-success btn-large">Заказать звонок</button>
+					</div>
+				</form>
+			</div>
+			<div class = "col-xs-1"></div>
+		</div>
+		<div class="spacer"></div>
+		<div class="separator"></div>
+		<div class="spacer"></div>
+		<div class = "row order">
+			<div class = "darker text-center"><h4>Или оформите заявку</h4></div>
+			<div class = "spacer"></div>
+
+			<div class = "col-xs-5"></div>
+			<div class = "col-xs-6">
+				<form id="order-form" class="form-horizontal">
+					<div class="form-control-group">
+						<label class="control-label" for="name">Имя</label>
+						<div class="controls name">
+							<input type="text" class="input-xlarge" name="name" id="name">
+							<img src = "" class = "img-responsive" id = "order-name-img"/>
+						</div>
+					</div>
+
+					<div class="form-control-group">
+						<label class="control-label" for="telephone">Телефон</label>
+						<div class="controls">							
+							<input type="text" class="input-xlarge" name="telephone" id="telephone">		
+							<img src = "" class = "img-responsive telephone" id = "order-telephone-img"/>					
+						</div>
+					</div>
+					
+					<div class="form-control-group">
+						<label class="control-label" for="email">Электронный адрес</label>
+						<div class="controls">
+							<input type="text" class="input-xlarge" name="email" id="email">
+							<img src = "" class = "img-responsive email" id = "order-email-img"/>
+						</div>
+					</div>
+
+					<div class = "spacer"></div>
+					<div class="form-actions">
+						<button type="submit" class="btn btn-success btn-large">Подать заявку</button>
+					</div>
+
+				</form>
+			</div>
+			<div class = "col-xs-1"></div>
+		</div>
+	</div>
+</div>
+	
+</body>
+</html>
